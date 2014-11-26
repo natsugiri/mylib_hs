@@ -17,6 +17,6 @@ getInts :: IO [Int]
 getInts = map read .words <$> getLine
 
 main = do
-    l <- getInts
-    print l
+  l <- getInts
+  print l
 

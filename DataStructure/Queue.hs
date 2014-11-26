@@ -1,5 +1,5 @@
 type Qu = Seq.Seq
-
+    
 emptyQu = Seq.empty
 
 pushQu :: a -> Qu a -> Qu a
