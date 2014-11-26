@@ -6,7 +6,7 @@ import Data.List -- (sort, foldl', foldl1', nub)
 import Data.Function (on)
 import Data.Char
 
-import qualified Data.Vector as Vec
+import qualified Data.Vector as V
 import qualified Data.Sequence as Seq
 import Data.Sequence (viewl, viewr, ViewL((:<)), ViewR((:>)))
 
