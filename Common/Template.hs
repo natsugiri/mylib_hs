@@ -22,6 +22,3 @@ getInts = map read .words <$> getLine
 main = do
   l <- getInts
   print l
-  let g = buildG (0, 3) [(0, 1), (1, 2), (2, 3), (3, 1), (0, 2), (0, 2)]
-  print g
-
