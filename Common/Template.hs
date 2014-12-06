@@ -15,12 +15,15 @@ import Data.Sequence (viewl, viewr, ViewL((:<)), ViewR((:>)))
 
 import Data.Graph
 
+getAll :: IO [String]
+getAll = filter (/="") .lines <$> getContents
+    
 getInt :: IO Int
 getInt = read <$> getLine
 
 getInts :: IO [Int]
 getInts = map read .words <$> getLine
-
+          
 main = do
   l <- getInts
   print l
