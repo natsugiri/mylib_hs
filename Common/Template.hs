@@ -6,6 +6,8 @@ import Data.List -- (sort, foldl', foldl1', nub)
 import Data.Function (on)
 import Data.Char
 
+import Data.Array.IArray
+import qualified Data.Array.Unboxed as UArr
 import qualified Data.Vector as V
 import qualified Data.Vector.Unboxed as U
 import qualified Data.Sequence as Seq
